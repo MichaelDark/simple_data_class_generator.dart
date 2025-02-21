@@ -1,0 +1,7 @@
+builders:
+  hw_builder:
+    import: "package:simple_data_class_generator/builder.dart"
+    builder_factories: ["helloWorldBuilder"]
+    auto_apply: root_package
+    build_to: source
+    build_extensions: { ".dart": [".hw.dart"] }

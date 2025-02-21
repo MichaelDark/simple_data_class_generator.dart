@@ -7,6 +7,10 @@ environment:
 
 dependencies:
   build:
+  analyzer:
+  source_gen:
+  code_builder:
+  dart_style:
 
 dev_dependencies:
   lints: ^5.0.0

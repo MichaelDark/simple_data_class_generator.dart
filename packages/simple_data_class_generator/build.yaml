@@ -5,3 +5,10 @@ builders:
     auto_apply: root_package
     build_to: source
     build_extensions: { ".dart": [".hw.dart"] }
+
+  data_class_builder:
+    import: "package:simple_data_class_generator/builder.dart"
+    builder_factories: ["dataClassBuilder"]
+    auto_apply: root_package
+    build_to: source
+    build_extensions: { ".dart": [".data_class.dart"] }
